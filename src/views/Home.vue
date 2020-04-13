@@ -2,6 +2,7 @@
   <div class='home'>
     <el-menu :default-active='activeName' mode='horizontal' @select="switchMenu">
       <el-menu-item index='/news'>资讯</el-menu-item>
+      <el-menu-item index="/note">笔记</el-menu-item>
       <el-menu-item index="/about">关于</el-menu-item>
     </el-menu>
     <keep-alive>
